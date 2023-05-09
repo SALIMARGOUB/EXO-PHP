@@ -1,15 +1,23 @@
 <?php
 
-$score1 = 999999;
-$score2 = 42244;
+$score1 = 12;
+$score2 = 12;
 
-if($score1>$score2){
-
+if($score1>$score2 && $score1 != $score2){
+ 
     echo $score1;
-
-}else{
+}elseif($score2>$score1){
 
     echo $score2;
+
+}else {
+    echo "egalité";
 }
+
+
+
+
+
+
 
 
