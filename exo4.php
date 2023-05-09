@@ -1,11 +1,11 @@
 <?php
 
-$age = 19;
+$age = -4;
 
-if ($age >= 18) {
+if ($age >= 18 ) {
 
     echo "je suis majeur";
-} elseif ($age <= 18) {
+} elseif ($age < 18&& $age>0 ) {
 
     echo "je suis mineur";
 } else {
